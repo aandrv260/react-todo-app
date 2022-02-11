@@ -1,0 +1,19 @@
+.form {
+  &__input {
+    width: 100%;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    height: 1.6rem;
+    padding: 1px;
+
+    &:not(:last-child) {
+      margin-bottom: 9px;
+    }
+  }
+
+  &__label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: 700;
+  }
+}
